@@ -9,4 +9,5 @@ func Fun(){
 	cm := kafka.ConfigMap{}
 	cm.SetKey("bootstrap.servers", "localhost:9092")
 	cm = nil
+
 }
